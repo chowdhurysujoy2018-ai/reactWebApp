@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "icon": "faCode",
+    "title": "Web Development",
+    "paragraph": "We build responsive and fast web applications using React, Tailwind CSS, and modern frameworks."
+  },
+  {
+    "id": 2,
+    "icon": "faMobileAlt",
+    "title": "Mobile Friendly",
+    "paragraph": "All our designs are fully optimized for mobile devices to ensure a seamless user experience on any screen size."
+  },
+  {
+    "id": 3,
+    "icon": "faCloud",
+    "title": "Cloud Integration",
+    "paragraph": "We integrate cloud-based solutions to help your app scale easily and stay secure with minimal downtime."
+  },
+  {
+    "id": 4,
+    "icon": "faLock",
+    "title": "Secure Platform",
+    "paragraph": "Security is our top priority. We follow best practices to ensure your data and systems are always protected."
+  },
+  {
+    "id": 5,
+    "icon": "faRocket",
+    "title": "High Performance",
+    "paragraph": "Our optimized code ensures high performance, smooth navigation, and lightning-fast load times for your users."
+  },
+  {
+    "id": 6,
+    "icon": "faHeadset",
+    "title": "24/7 Support",
+    "paragraph": "Our dedicated team is available around the clock to provide assistance and ensure smooth project delivery."
+  }
+]

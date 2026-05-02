@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* react-slick default styles */
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+
+:root {
+  --light-green-100:#1d4d161a;
+  --light-green-200:#1d4d16;
+  --light-green-300:#1d4d161a;
+  --light-green-600:#1d4d16cc;
+  
+  
+}
+
+body{
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.custom-container{
+  max-width: 1400px;
+  margin:0 auto;
+}
+nav a.active{
+  color: var(--light-green-200);
+  font-weight: 500;
+}
