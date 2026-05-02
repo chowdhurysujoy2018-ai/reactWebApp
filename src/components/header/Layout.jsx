@@ -3,7 +3,6 @@ import { NavLink, Link } from 'react-router-dom'
 import Button from '../Button'
 import headerLogo from '../../assets/images/logo.png'
 
-
 const Layout = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -18,8 +17,6 @@ const Layout = () => {
     };
 
     window.addEventListener("scroll", handleScroll);
-
-    // 🧹 cleanup when component unmounts
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
