@@ -90,8 +90,7 @@ export default function ProjectFilter() {
   //      UI RENDER
   // =========================
   return (
-    <div className="p-6">
-
+    <div className="custom-container pb-[100px]">
       {/* FILTERS */}
       <div className="grid grid-cols-4 gap-4 mb-6">
 
@@ -132,7 +131,7 @@ export default function ProjectFilter() {
       {/* CARD LIST */}
       <div className="grid grid-cols-3 gap-6">
         {currentCards.map(item => (
-          <div key={item.id} className="border rounded-xl shadow p-4">
+          <div key={item.id} className="border border-[#f1f1f1] rounded-xl shadow p-4">
             <img src={item.image} className="rounded-xl mb-3" alt="" />
 
             <h3 className="font-semibold text-lg">{item.title}</h3>
@@ -153,7 +152,7 @@ export default function ProjectFilter() {
       </div>
 
       {/* PAGINATION */}
-      <div className="flex justify-center mt-6 gap-2">
+      <div className="flex justify-center mt-10 gap-2">
         <button disabled={currentPage === 1}
           onClick={() => setCurrentPage(prev => prev - 1)}
           className="px-4 py-2 bg-gray-200 rounded disabled:opacity-50">
